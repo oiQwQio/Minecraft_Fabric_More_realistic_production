@@ -1,0 +1,13 @@
+{
+  "itemGroup.morerealisticproduction.group_name": "更好的制作",
+  "item.morerealisticproduction.mortar": "研钵",
+  "item.morerealisticproduction.mortar.tooltip": "用来研磨的研钵",
+  "item.morerealisticproduction.hemp_rope": "麻绳",
+  "item.morerealisticproduction.hemp_rope.tooltip": "也许可以用来制作什么",
+  "item.morerealisticproduction.hacksaw_blades": "钢锯片",
+  "item.morerealisticproduction.hacksaw_blades.tooltip": "可以放入砂轮或切石机的样子",
+  "item.morerealisticproduction.pig_iron_saw_blades": "生铁锯片",
+  "item.morerealisticproduction.pig_iron_saw_blades.tooltip": "可以放入砂轮或切石机的样子",
+  "item.morerealisticproduction.flint_saw_blades": "生铁锯片",
+  "item.morerealisticproduction.flint_saw_blades.tooltip": "可以放入砂轮或切石机的样子"
+}

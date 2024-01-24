@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "morerealisticproduction",
+	"version": "${version}",
+	"name": "更真实的制作",
+	"description": "一个折磨人的mod,使mc合成方法更接近与现实",
+	"authors": [
+		"oiQwQio!"
+	],
+	"contact": {
+		"homepage": "https://github.com/oiQwQio/Minecraft_Fabric_More_realistic_production",
+		"sources": "https://github.com/oiQwQio/Minecraft_Fabric_More_realistic_production"
+	},
+	"license": "GPL3",
+	"icon": "assets/morerealisticproduction/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.github.oiqwqio.MoreRealisticProduction"
+		],
+		"client": [
+			"com.github.oiqwqio.MoreRealisticProductionClient"
+		]
+	},
+	"mixins": [
+		"morerealisticproduction.mixins.json",
+		{
+			"config": "morerealisticproduction.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
